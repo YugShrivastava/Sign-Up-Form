@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="whole">
+      <div class="img-container">
+        <div id="odin-logo">
+          <img src="./images/odin-lined.png" alt="odin-logo" id="odin-logo-" />
+          <p>ODIN</p>
+        </div>
+        <img
+          src="./images/odin-leaves.jpg"
+          alt="odin-leaves"
+          id="odin-leaves"
+        />
+        <p id="credits">Credits To The Creator Of This Image</p>
+      </div>
+      <div class="form">
+        <p id="first-para">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p id="second-para">You <em>know</em> you want to.</p>
+        <form action="action" method="post">
+          <div class="form-class">
+            <p>Let's Do This!</p>
+            <label for="first_name">FIRST NAME</label>
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              placeholder="Thor"
+            />
+            <label for="last_name">LAST NAME</label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              placeholder="Odinson"
+            />
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" />
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="number" name="phone_number" id="phone_number" />
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required />
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input
+              type="confirm_password"
+              name="confirm_password"
+              id="confirm_password"
+              required
+            />
+          </div>
+          <br />
+          <button>Create Account</button>
+        </form>
+        <p>Already have an Account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </body>
+</html>
