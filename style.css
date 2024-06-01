@@ -11,8 +11,8 @@
 }
 .odin-logo-container {
   top: 22vh;
-  background-color: black;
-  opacity: 0.4;
+  background-color: rgba(0%, 0%, 0%, 0.5);
+  /* opacity: 0.4; */
   position: absolute;
   width: 40vw;
   height: 14vh;
@@ -35,4 +35,22 @@
   color: white;
   position: absolute;
   top: 95vh;
+}
+.whole{
+  display: flex;
+  gap: 7vw;
+}
+#first-para,
+#second-para{
+  font-size: 2rem;
+  font-family: NorseBold;
+  font-weight: bold;
+  margin-right: 10vw;
+}
+#first-para{
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+#second-para{
+  margin-bottom: 8vh;
 }
