@@ -2,3 +2,37 @@
   font-family: NorseBold;
   src: url(./Norse-Bold.otf);
 }
+* {
+  margin: 0px;
+}
+#odin-leaves {
+  width: 40vw;
+  height: 100vh;
+}
+.odin-logo-container {
+  top: 22vh;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  width: 40vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+#odin-para{
+  font-size: 8rem;
+  color: white;
+  font-family: NorseBold;
+  font-weight: bold;
+}
+#odin-logo {
+  width: 6em;
+  height: auto;
+}
+#credit-para{
+  color: white;
+  position: absolute;
+  top: 95vh;
+}
